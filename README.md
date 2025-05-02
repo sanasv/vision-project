@@ -70,5 +70,5 @@ We experimented with the following models:
 - Confusion matrix for final ensemble
 
 <p align="center">
-  <img src="ensemble.png" width="500"/>
+  <img src="ensemble (1).png" width="500"/>
 </p>
