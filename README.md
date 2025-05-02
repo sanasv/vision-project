@@ -1,4 +1,3 @@
-![ensemble_majority_voting](https://github.com/user-attachments/assets/16eddeff-6450-42a6-a26b-6379bbf9997d)# vision-project
 
 # 🧠 Brain Tumor Classification using Deep Learning & Ensemble Transformers
 
@@ -63,12 +62,12 @@ We experimented with the following models:
 
 ### Weighted Ensemble Learning
 <p align="center">
-  <img src="ensemble.png" width="500"/>
+  <img src="ensemble (1).png" width="500"/>
 </p>
 
 ### Majority Voting Ensemble Learning
 <p align="center">
-  <img src="ensemble_majority_vote.png"
+  <img src="ensemble_majority_voting.png"
 " width="500"/>
 </p>
 
