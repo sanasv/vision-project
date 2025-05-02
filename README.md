@@ -86,7 +86,7 @@ To run the ensemble evaluation:
 
 It evaluates model combinations using weighted averaging and majority voting, and produces accuracy, F1 score, and confusion matrix.
 
-# 📦 Model Files
+## 📦 Model Files
 
 🚫 Due to file size limitations, the trained model .pth files are not uploaded to this repository.
 You will need to re-train the models using the provided training notebooks before evaluation or ensemble.
