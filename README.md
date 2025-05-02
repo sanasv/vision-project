@@ -1,4 +1,4 @@
-# vision-project
+![ensemble_majority_voting](https://github.com/user-attachments/assets/16eddeff-6450-42a6-a26b-6379bbf9997d)# vision-project
 
 # 🧠 Brain Tumor Classification using Deep Learning & Ensemble Transformers
 
@@ -59,7 +59,17 @@ We experimented with the following models:
 | DenseNet121    | 71.83        | 67.28        |
 | ConvNeXt       | 57.61        | 55.91        |
 
-### ✅ Final Ensemble (ViT + Swin)
-- **Accuracy:** `83.2%`
-- **F1 Score:** `82.1%`
-- Ensemble resulted in improved generalization and better performance on underrepresented classes like glioma.
+## ✅ Ensemble Learning
+
+### Weighted Ensemble Learning
+<p align="center">
+  <img src="ensemble.png" width="500"/>
+</p>
+
+### Majority Voting Ensemble Learning
+<p align="center">
+  <img src="ensemble_majority_vote.png"
+" width="500"/>
+</p>
+
+
