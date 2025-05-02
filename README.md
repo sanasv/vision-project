@@ -67,7 +67,7 @@ We experimented with the following models:
 
 ### Majority Voting Ensemble Learning
 <p align="center">
-  <img src="ensemble_majority_voting.png"
+  <img src="ensemble_majority_voting (1).png"
 " width="500"/>
 </p>
 
