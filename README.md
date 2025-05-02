@@ -71,4 +71,23 @@ We experimented with the following models:
 " width="500"/>
 </p>
 
+# 🏃‍♀️ Running the Project
+
+Each .ipynb file handles loading the dataset, training, and evaluating the model.
+
+## To run:
+
+📌 Open the notebook of the desired model (e.g., ViT.ipynb, ResNet18.ipynb) and run all cells sequentially.
+
+🔁 Ensemble Learning
+To run the ensemble evaluation:
+
+📌 Open and run ensemble_<method>.ipynb.
+
+It evaluates model combinations using weighted averaging and majority voting, and produces accuracy, F1 score, and confusion matrix.
+
+# 📦 Model Files
+
+🚫 Due to file size limitations, the trained model .pth files are not uploaded to this repository.
+You will need to re-train the models using the provided training notebooks before evaluation or ensemble.
 
