@@ -1,6 +1,7 @@
 
 # 🧠 Brain Tumor Classification using Deep Learning & Ensemble Learning
 
+## 🌟 Overview
 This project focuses on the classification of brain MRI images into four categories: `glioma_tumor`, `meningioma_tumor`, `no_tumor`, and `pituitary_tumor`. We leverage modern convolutional neural networks (CNNs) and vision transformers (ViT, Swin) and explore **ensemble learning** to boost performance.
 
 ## 📁 Dataset
@@ -57,6 +58,12 @@ We experimented with the following models:
 | MobileNetV2    | 74.11        | 70.69        |
 | DenseNet121    | 71.83        | 67.28        |
 | ConvNeXt       | 57.61        | 55.91        |
+
+## 🔑 Key Findings
+- Vision Transformer outperforms all other models, demonstrating superior feature extraction and class balance.
+- Weighted averaging ensembles effectively enhance sensitivity for glioma classification.
+- Majority voting dilutes the impact of high-performing models and is less effective.
+- Adding weaker models like ConvNeXt to ensembles degrades performance, emphasizing the importance of quality over quantity.
 
 ## ✅ Ensemble Learning
 
