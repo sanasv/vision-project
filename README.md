@@ -59,12 +59,6 @@ We experimented with the following models:
 | DenseNet121    | 71.83        | 67.28        |
 | ConvNeXt       | 57.61        | 55.91        |
 
-## 🔑 Key Findings
-- Vision Transformer outperforms all other models, demonstrating superior feature extraction and class balance.
-- Weighted averaging ensembles effectively enhance sensitivity for glioma classification.
-- Majority voting dilutes the impact of high-performing models and is less effective.
-- Adding weaker models like ConvNeXt to ensembles degrades performance, emphasizing the importance of quality over quantity.
-
 ## ✅ Ensemble Learning
 
 ### Weighted Ensemble Learning
@@ -77,6 +71,12 @@ We experimented with the following models:
   <img src="ensemble_majority_voting (1).png"
 " width="500"/>
 </p>
+
+## 🔑 Key Findings
+- Vision Transformer outperforms all other models, demonstrating superior feature extraction and class balance.
+- Weighted averaging ensembles effectively enhance sensitivity for glioma classification.
+- Majority voting dilutes the impact of high-performing models and is less effective.
+- Adding weaker models like ConvNeXt to ensembles degrades performance, emphasizing the importance of quality over quantity.
 
 # 🏃‍♀️ Running the Project
 
