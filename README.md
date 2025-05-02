@@ -5,7 +5,7 @@ This project focuses on the classification of brain MRI images into four categor
 
 ## 📁 Dataset
 
-We used a publicly available brain tumor MRI dataset, pre-divided into:
+We used a publicly available brain tumor MRI dataset from Kaggle, pre-divided into:
 
 - `Training/` folder
 - `Testing/` folder
