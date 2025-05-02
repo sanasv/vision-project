@@ -6,7 +6,7 @@ This project focuses on the classification of brain MRI images into four categor
 
 ## 📁 Dataset
 
-We used a publicly available brain tumor MRI dataset from Kaggle, pre-divided into:
+We used a publicly available brain tumor MRI dataset from Kaggle available at [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset), pre-divided into:
 
 - `Training/` folder
 - `Testing/` folder
@@ -78,6 +78,11 @@ We experimented with the following models:
 - Majority voting dilutes the impact of high-performing models and is less effective.
 - Adding weaker models like ConvNeXt to ensembles degrades performance, emphasizing the importance of quality over quantity.
 
+## 🔮 Future Work
+- Explore dynamic weighting for ensembles.
+- Investigate class-specific confidence-based voting.
+- Fine-tune models further to improve generalization.
+
 # 🏃‍♀️ Running the Project
 
 Each .ipynb file handles loading the dataset, training, and evaluating the model.
@@ -97,4 +102,7 @@ It evaluates model combinations using weighted averaging and majority voting, an
 
 🚫 Due to file size limitations, the trained model .pth files are not uploaded to this repository.
 You will need to re-train the models using the provided training notebooks before evaluation or ensemble.
+
+## 🙌 Acknowledgments
+We thank the contributors of the publicly available MRI dataset from Kaggle and acknowledge the use of pre-trained weights from standard libraries. This project represents a collaborative effort to advance the field of medical imaging using deep learning.
 
