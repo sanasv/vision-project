@@ -1,5 +1,5 @@
 
-# 🧠 Brain Tumor Classification using Deep Learning & Ensemble Transformers
+# 🧠 Brain Tumor Classification using Deep Learning & Ensemble Learning
 
 This project focuses on the classification of brain MRI images into four categories: `glioma_tumor`, `meningioma_tumor`, `no_tumor`, and `pituitary_tumor`. We leverage modern convolutional neural networks (CNNs) and vision transformers (ViT, Swin) and explore **ensemble learning** to boost performance.
 
